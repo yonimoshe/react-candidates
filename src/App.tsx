@@ -23,10 +23,12 @@ export default function App() {
   }
 
   const debouncedName = useDebouncedValue(filters.name, 350);
+  const nameForFilter = filters.name.trim() === "" ? "" : debouncedName;
 
   const debouncedFilters: FiltersType = {
     ...filters,
-    name: debouncedName,
+    // name: debouncedName,
+    name: nameForFilter,
   };
 
   const filteredData = filterCandidates(data, debouncedFilters);
