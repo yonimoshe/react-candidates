@@ -50,7 +50,11 @@ export default function App() {
         onReset={handleResetFilters}
         canReset={canReset}
       />
-      <CandidatesTable data={filteredData} />
+      {filteredData.length === 0 ? (
+        <EmptyState />
+      ) : (
+        <CandidatesTable data={filteredData} />
+      )}
     </div>
   );
 }
