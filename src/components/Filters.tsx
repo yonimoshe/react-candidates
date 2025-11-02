@@ -1,4 +1,5 @@
 import type { Filters, Position, Status } from "../types";
+import "./Filters.css";
 
 type FiltersProps = {
   filters: Filters;
@@ -20,17 +21,10 @@ export default function Filters({
   const isYearsEnabled = true;
 
   return (
-    <div
-      style={{
-        display: "flex",
-        gap: "1rem",
-        marginBottom: "1.5rem",
-        alignItems: "center",
-        flexWrap: "wrap",
-      }}
-    >
+    <div className="filters-bar">
       {/* Name filter */}
       <input
+        className="filters-input"
         type="text"
         placeholder="Search by name"
         value={name}
@@ -39,6 +33,7 @@ export default function Filters({
 
       {/* Position filter */}
       <select
+        className="filters-select"
         value={position}
         onChange={(e) => onChange({ position: e.target.value as Position })}
         disabled={!isPositionEnabled}
@@ -52,6 +47,7 @@ export default function Filters({
 
       {/* Status filter */}
       <select
+        className="filters-select"
         value={status}
         onChange={(e) => onChange({ status: e.target.value as Status })}
         disabled={!isStatusEnabled}
@@ -64,6 +60,7 @@ export default function Filters({
 
       {/* Years of Experience */}
       <input
+        className="filters-input years"
         type="number"
         placeholder="Min years"
         value={years}
@@ -77,20 +74,12 @@ export default function Filters({
 
       {/* Reset */}
       <button
+        className="btn-reset"
         type="button"
         onClick={onReset}
         disabled={!canReset}
         aria-label="Reset filters"
         title="Reset filters"
-        style={{
-          padding: "0.5rem 0.9rem",
-          borderRadius: 999,
-          border: "1px solid #ddd",
-          marginLeft: "auto",
-          background: "#fafafa",
-          cursor: canReset ? "pointer" : "not-allowed",
-          opacity: canReset ? 1 : 0.5,
-        }}
       >
         Reset
       </button>
