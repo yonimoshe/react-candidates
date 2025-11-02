@@ -1,7 +1,10 @@
+import "./Loading.css";
+
 export default function Loading() {
   return (
-    <div style={{ textAlign: "center", padding: "2rem" }}>
-      <p style={{ fontSize: "1.2rem", color: "#666" }}>Loading data...</p>
+    <div className="loading-container" role="status" aria-live="polite">
+      <div className="spinner" />
+      <p className="loading-text">Loading data...</p>
     </div>
   );
 }
