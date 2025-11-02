@@ -1,0 +1,84 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Alice Cohen",
+      "email": "alice@example.com",
+      "position": "Frontend Developer",
+      "status": "New",
+      "experienceYears": 2
+    },
+    {
+      "id": 2,
+      "name": "Ben Levi",
+      "email": "ben@example.com",
+      "position": "Backend Developer",
+      "status": "Interview",
+      "experienceYears": 4
+    },
+    {
+      "id": 3,
+      "name": "Dana Gold",
+      "email": "dana@example.com",
+      "position": "Fullstack Developer",
+      "status": "Hired",
+      "experienceYears": 5
+    },
+    {
+      "id": 4,
+      "name": "Eyal Katz",
+      "email": "eyal@example.com",
+      "position": "Frontend Developer",
+      "status": "New",
+      "experienceYears": 1
+    },
+    {
+      "id": 5,
+      "name": "Roni Shaked",
+      "email": "roni@example.com",
+      "position": "Product Manager",
+      "status": "Interview",
+      "experienceYears": 6
+    },
+    {
+      "id": 6,
+      "name": "Itay Mor",
+      "email": "itay@example.com",
+      "position": "Backend Developer",
+      "status": "Hired",
+      "experienceYears": 3
+    },
+    {
+      "id": 7,
+      "name": "Noa Azulay",
+      "email": "noa@example.com",
+      "position": "Fullstack Developer",
+      "status": "Interview",
+      "experienceYears": 4
+    },
+    {
+      "id": 8,
+      "name": "Shira Ben-David",
+      "email": "shira@example.com",
+      "position": "Frontend Developer",
+      "status": "New",
+      "experienceYears": 2
+    },
+    {
+      "id": 9,
+      "name": "David Ron",
+      "email": "david@example.com",
+      "position": "Backend Developer",
+      "status": "New",
+      "experienceYears": 1
+    },
+    {
+      "id": 10,
+      "name": "Yoni Peretz",
+      "email": "yoni@example.com",
+      "position": "Fullstack Developer",
+      "status": "Hired",
+      "experienceYears": 7
+    }
+  ]
+}
