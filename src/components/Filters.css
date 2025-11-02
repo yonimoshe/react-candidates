@@ -6,7 +6,7 @@
   margin-bottom: 1.5rem;
 }
 
-/* קלטים/סלקטים */
+
 .filters-input,
 .filters-select {
   height: 38px;
@@ -19,7 +19,7 @@
 }
 
 .filters-input.years {
-  width: 120px; /* כמו שהיה inline */
+  width: 120px; 
   min-width: 120px;
 }
 
@@ -28,7 +28,7 @@
   border-color: #bbb;
 }
 
-/* מצבי disabled */
+
 .filters-select:disabled,
 .filters-input:disabled {
   background: #f6f6f6;
@@ -36,14 +36,14 @@
   opacity: 0.7;
 }
 
-/* כפתור Reset */
+
 .btn-reset {
   height: 38px;
   padding: 0 14px;
   border: 1px solid #ddd;
   border-radius: 999px;
   background: #fafafa;
-  margin-left: auto; /* דוחף לצד */
+  margin-left: auto; 
   cursor: pointer;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .filters-input.years {
-  -moz-appearance: textfield; /* פיירפוקס */
+  -moz-appearance: textfield; 
 }
 
 .filters-select {
@@ -80,7 +80,7 @@
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 10px 6px;
-  padding-right: 30px; /* מקום לחץ */
+  padding-right: 30px; 
 }
 
 
