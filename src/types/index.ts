@@ -7,6 +7,7 @@ export type Position =
 export type Status = "New" | "Interview" | "Hired";
 
 export type Candidate = {
+  id: number;
   name: string;
   email: string;
   position: Position;

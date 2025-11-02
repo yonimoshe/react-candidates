@@ -17,8 +17,8 @@ export function CandidatesTable({ data }: Props) {
           </tr>
         </thead>
         <tbody>
-          {data.map((c, idx) => (
-            <tr key={idx}>
+          {data.map((c) => (
+            <tr key={c.id || c.email}>
               <td>{c.name}</td>
               <td>{c.email}</td>
               <td>{c.position}</td>
