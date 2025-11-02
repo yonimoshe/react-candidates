@@ -27,7 +27,6 @@ export default function App() {
 
   const debouncedFilters: FiltersType = {
     ...filters,
-    // name: debouncedName,
     name: nameForFilter,
   };
 
@@ -45,7 +44,6 @@ export default function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Candidates</h1>
       <Filters
         filters={filters}
         onChange={handleFilterChange}
