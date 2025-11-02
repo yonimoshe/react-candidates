@@ -56,7 +56,7 @@ This project renders a table of candidates and allows filtering by multiple fiel
 ```bash
 git clone https://github.com/YoniMoshe/react-candidates.git
 cd react-candidates
-
+```
 
 ### 2. Setup environment variables
 Create a `.env` file in the project root:
