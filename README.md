@@ -60,8 +60,16 @@ cd react-candidates
 
 ### 2. Setup environment variables
 Create a `.env` file in the project root:
+
 ```bash
-VITE_API_URL=<your-backend-endpoint>
+VITE_API_BASE_URL=http://localhost:4000
+
+```
+
+### Run local mock server
+```bash
+npm run server
+# Serves db.json at http://localhost:4000
 ```
 
 ### 3. Start the app
