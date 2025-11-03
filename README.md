@@ -69,15 +69,16 @@ VITE_API_BASE_URL=http://localhost:4000
 ### Run local mock server
 ```bash
 npm run server
-# Serves db.json at http://localhost:4000
 ```
+# Serves db.json at http://localhost:4000
 
 ### 3. Start the app
 ```bash
 npm install
 npm run dev
-# runs on http://localhost:5173
+
 ```
+# runs on http://localhost:5173
 
 ### 4. Build & Preview
 ```bash
